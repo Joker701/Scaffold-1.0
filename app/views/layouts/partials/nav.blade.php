@@ -34,31 +34,19 @@
           <ul class="dropdown-menu" role="menu">      
             @if (Auth::check())
               <li class="{{ set_active('profile') }}">
-                <a href="/profile">
+                <a href="">
                   Home
                 </a>
               </li>
-              <li>
-                <a href="/logout">
-                  Sign out
-                </a>
-              </li>
+              <li>{{ link_to_route('logout_path', 'Log Out') }}</li>
             @else
-              <li>
-                <a href="javascript:;" data-toggle="modal" data-target="#signinModal">
-                  Sign In
-                </a>
-              </li>
-              <li>
-                <a href="javascript:;" data-toggle="modal" data-target="#accountModal">
-                  Sign Up
-                </a>
-              </li>
-              <li>
+              <li  class="{{ set_active('login') }}">{{ link_to_route('login_path', 'Log In') }}</li>
+              <li  class="{{ set_active('register') }}">{{ link_to_route('register_path', 'Register') }}</li>
+             <!--  <li>
                 <a href="javascript:;" data-toggle="modal" data-target="#contactModal">
                   Contact Us
                 </a>
-            </li> 
+            </li>  -->
             @endif 
           </ul>
         </li>

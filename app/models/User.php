@@ -11,6 +11,30 @@ class User extends Eloquent implements UserInterface, RemindableInterface, Billa
 
 	use UserTrait, RemindableTrait, BillableTrait;
 
+	protected $fillable = [
+		'username', 
+		'firstname',
+		'lastname',
+		'email', 
+		'password',
+		'telephone', 
+		'avatar',
+		'admin'
+	];
+
+	public static $rules = [
+		'username' => 'required|unique:users',
+		'email' => 'required|email|unique:users',
+		'password' => 'required|confirmed',
+		'avatar'      => 'image'
+	];
+
+	public static $login_rules = [
+		'email' => 'required',
+		'password' => 'required|'
+	];
+
+
 	/**
 	 * The database table used by the model.
 	 *
