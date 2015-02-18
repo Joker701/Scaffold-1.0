@@ -16,12 +16,12 @@ class CreateUsersTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('username');
-			$table->string('firstname');
-			$table->string('lastname');
+			$table->string('firstname')->nullable();
+			$table->string('lastname')->nullable();
 			$table->string('email');
 			$table->string('password');
-			$table->string('telephone');
-			$table->string('avatar');
+			$table->string('telephone')->nullable();
+			$table->string('avatar')->nullable();
 			$table->boolean('admin')->default(2);
 			$table->string('remember_token')->nullable();
 			$table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
