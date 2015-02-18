@@ -6,7 +6,7 @@
         <h3 class="text-primary">Password Reset:</h3>
 		{{ Form::open() }}
 		<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-			{{ Form::email('email', null, ['class' => 'form-control form-reset', 'required' => 'required', 'placeholder' => 'Email']) }}
+			{{ Form::email('email', null, ['class' => 'form-control', 'required' => 'required', 'placeholder' => 'Email']) }}
 			{{ $errors->first('email', '<span class="help-block form-margin">:message</span>') }}
 		</div>
 		<div class="form-group form-margin">
