@@ -84,7 +84,7 @@ Dotenv::load(base_path());
 
 Dotenv::required([ 
 	'DB_HOST', 
-	'DB_DATABASE', 
+	'DB_NAME', 
 	'DB_USERNAME', 
 	'DB_PASSWORD',
 	'EMAIL_FROM',
