@@ -22,7 +22,7 @@ class RegistrationController extends \BaseController {
 
 		if ($validator->fails())
 		{
-			return Redirect::back()->withErrors($validator)->withInput()->with('warning', 'An error occurred, please try again.');
+			return Redirect::back()->withErrors($validator)->withInput()->with('warning', 'The following errors occurred.');
 		}
 
 		$user = User::create([
