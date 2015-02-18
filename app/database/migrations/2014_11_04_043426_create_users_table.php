@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration {
 			$table->string('password');
 			$table->string('telephone')->nullable();
 			$table->string('avatar')->nullable();
-			$table->boolean('admin')->default(2);
+			$table->boolean('admin')->default(0);
 			$table->string('remember_token')->nullable();
 			$table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
 			$table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP'));
