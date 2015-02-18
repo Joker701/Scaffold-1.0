@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Vesper Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VesperDevanagariLibre-Regular'), url(/fonts/VesperDevanagariLibre-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SpecialElite-Regular'), url(/fonts/SpecialElite-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('TitilliumWeb-Bold'), url(/fonts/TitilliumWeb-Bold.woff2) format('woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Averia Sans Libre';
+  font-style: normal;
+  font-weight: 700;
+  src: local('AveriaSansLibre-Bold'), url(/fonts/AveriaSansLibre-Bold.woff) format('woff');
+}
+
+body { 
+    padding-top: 125px;
+    font-family: 'Titillium Web';
+    background-image: url('/img/concrete_seamless.png');
+}
+
+.site-name {
+  font-family: 'SpecialElite-Regular';
+}
+
+.site-name:hover {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+a {
+  font-family: 'Vesper Libre';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Averia Sans Libre';
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: transparent;
+}
+
+.header-background {
+  background-image: url('/img/dark_embroidery.png');
+}
+
+
+.well {
+	background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 47%, rgba(246,246,246,1) 52%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(237,237,237,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(52%, rgba(246,246,246,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 47%, rgba(246,246,246,1) 52%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 47%, rgba(246,246,246,1) 52%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 47%, rgba(246,246,246,1) 52%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 47%, rgba(246,246,246,1) 52%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 );
+}
+
+a.cart-link {
+  color: #9d9d9d;
+}
+
+.cart-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cart-link:active {
+  color: #ffffff;
+}
+
+/*navbar center line*/
+.border-top {
+  border-top: 1px dotted #9d9d9d;
+}

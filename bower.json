@@ -1,0 +1,17 @@
+{
+  "name": "Larabook",
+  "dependencies": {
+  	"bootstrap": "~3.3.1"
+  },
+  "install": {
+    "base": "public",
+    "path": {
+      "js": "assets/{name}/js",
+      "css": "assets/{name}/css",
+      "eot": "assets/{name}/fonts",
+      "svg": "assets/{name}/fonts",
+      "ttf": "assets/{name}/fonts",
+      "woff": "assets/{name}/fonts"
+    }
+  }
+}
