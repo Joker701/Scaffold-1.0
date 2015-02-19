@@ -23,6 +23,7 @@
 		</div>	
 		<!-- javascript -->
 		{{ HTML::script('assets/app.min.js') }}
+		{{ HTML::script('https://js.stripe.com/v2/') }}
 		@yield('footer')
 	</body>
 </html>

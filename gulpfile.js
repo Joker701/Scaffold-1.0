@@ -9,7 +9,7 @@ var minify = require('gulp-minify-css');
 
 // Concatenate JS Files
 gulp.task('scripts', function() {
-    return gulp.src(['public/assets/jquery/js/jquery.js','public/assets/bootstrap/js/bootstrap.js', 'public/assets/stripe.js', 'public/assets/tweak.js'])
+    return gulp.src(['public/assets/jquery/js/jquery.js','public/assets/bootstrap/js/bootstrap.js', 'public/assets/tweak.js'])
       .pipe(concat('app.js'))
       .pipe(rename({suffix: '.min'}))
       .pipe(uglify())
