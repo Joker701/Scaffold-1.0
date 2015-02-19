@@ -10,7 +10,7 @@
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>	       
-        <a href="" class='btn btn-primary']>
+        <a href="register" class='btn btn-primary']>
         	Sign Up <i class="glyphicon glyphicon-hand-right"></i>
 		</a>
         <hr>

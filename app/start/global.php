@@ -87,6 +87,7 @@ Dotenv::required([
 	'DB_NAME', 
 	'DB_USERNAME', 
 	'DB_PASSWORD',
+	'EMAIL_PRETEND',
 	'EMAIL_FROM',
 	'EMAIL_NAME',
 	'EMAIL_KEY',
