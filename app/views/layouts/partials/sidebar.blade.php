@@ -1,7 +1,7 @@
 <div class="col-md-3">
 	<div class="well eq-col">
     <div class="clearfix">
-		<h3>Sidebar</h3>
+		<h3 class="text-info">Sidebar</h3>
 		 <div class="thumbnail">
             <img alt="300x200" src="http://lorempixel.com/600/200/people" />
             <div class="caption">
