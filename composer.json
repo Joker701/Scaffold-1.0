@@ -1,8 +1,8 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
-	"license": "MIT",
+	"name": "Joker701/Scaffold-1.0",
+	"description": "Basic scaffold for site devel.",
+	"keywords": ["framework", "laravel", "Bootstrap", "jQuery"],
+	"license": "GPL-2",
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
@@ -11,7 +11,8 @@
 		"moltin/laravel-cart": "dev-master",
 		"brainboxlabs/brain-socket"  : "dev-master",
 		"vlucas/phpdotenv": "~1.1@dev",
-		"laravel/cashier": "2.0.*@dev"
+		"laravel/cashier": "2.0.*@dev",
+		"guzzlehttp/guzzle": "4.2.3"
 	},
 	"require-dev": {
 		"way/generators": "~2.0",

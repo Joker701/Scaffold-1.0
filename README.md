@@ -2,6 +2,10 @@
 
 Basic scaffold for site devel.
 
+##Features
+
+User creation and management.
+
 ##Tech:
 
 - Asset management: 

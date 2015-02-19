@@ -83,11 +83,11 @@ require app_path().'/filters.php';
 Dotenv::load(base_path());
 
 Dotenv::required([ 
+	'APP_HOST',
 	'DB_HOST', 
 	'DB_NAME', 
 	'DB_USERNAME', 
 	'DB_PASSWORD',
-	'EMAIL_PRETEND',
 	'EMAIL_FROM',
 	'EMAIL_NAME',
 	'EMAIL_KEY',
