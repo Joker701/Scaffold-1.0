@@ -1,6 +1,6 @@
 <?php
 
-use UserMailer;
+use \UserMailer;
 
 class RegistrationController extends \BaseController {
 
