@@ -1,5 +1,7 @@
 #Scaffold-1.0
 
+[![Join the chat at https://gitter.im/Joker701/Scaffold-1.0](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Joker701/Scaffold-1.0?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Basic scaffold for site devel.
 
 ##Tech:
