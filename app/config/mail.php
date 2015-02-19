@@ -28,7 +28,7 @@ return [
 	|
 	*/
 
-	'host' => 'smtp.somewhere.com',
+	'host' => 'smtp.mailgun.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -119,6 +119,6 @@ return [
 	|
 	*/
 
-	'pretend' => 'false',
+	'pretend' => getenv('EMAIL_PRETEND'),
 
 ];
