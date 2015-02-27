@@ -33,7 +33,7 @@ class SessionsController extends \BaseController {
 
 		if(Auth::attempt($input))
 		{
-			return Redirect::intended('statuses')->with('success', 'Welcome back.');
+			return Redirect::intended('/')->with('success', 'Welcome back.');
 		}
 
 		if(!Auth::attempt($input))

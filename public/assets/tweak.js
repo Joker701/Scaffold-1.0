@@ -3,6 +3,9 @@ $.ajaxSetup({
     cache: false
 });
 
+// fade out alerts
+$('.alert-fade').fadeOut(6000);
+
 // called on change of layout on window resize
 $(window).resize(function(){
    console.log('resize called');
