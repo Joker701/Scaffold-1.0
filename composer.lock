@@ -155,25 +155,23 @@
         },
         {
             "name": "d11wtq/boris",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/d11wtq/boris.git",
-                "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
+                "reference": "fabd509f0a96669e98f38bc7afcf7b1465e183f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/d11wtq/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
-                "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
+                "url": "https://api.github.com/repos/d11wtq/boris/zipball/fabd509f0a96669e98f38bc7afcf7b1465e183f1",
+                "reference": "fabd509f0a96669e98f38bc7afcf7b1465e183f1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
-            },
-            "suggest": {
                 "ext-pcntl": "*",
                 "ext-posix": "*",
-                "ext-readline": "*"
+                "ext-readline": "*",
+                "php": ">=5.3.0"
             },
             "bin": [
                 "bin/boris"
@@ -185,7 +183,11 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-01-17 12:21:18"
+            "license": [
+                "MIT"
+            ],
+            "description": "A tiny, but robust REPL (Read-Evaluate-Print-Loop) for PHP.",
+            "time": "2015-02-26 06:56:57"
         },
         {
             "name": "evenement/evenement",
@@ -995,12 +997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fa3bc975c2ff42a40c4c565b191a31a7e7ca08b1"
+                "reference": "bba433ac380c47523fab495a1322368381df0996"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fa3bc975c2ff42a40c4c565b191a31a7e7ca08b1",
-                "reference": "fa3bc975c2ff42a40c4c565b191a31a7e7ca08b1",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bba433ac380c47523fab495a1322368381df0996",
+                "reference": "bba433ac380c47523fab495a1322368381df0996",
                 "shasum": ""
             },
             "require": {
@@ -1059,7 +1061,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-02-23 00:57:27"
+            "time": "2015-02-25 16:48:53"
         },
         {
             "name": "nesbot/carbon",
@@ -2891,12 +2893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "f1004b8b336465fafd498ee6539cc2502d16f98f"
+                "reference": "0e11c342d167c75f083358fa7825657ea4ab10eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/f1004b8b336465fafd498ee6539cc2502d16f98f",
-                "reference": "f1004b8b336465fafd498ee6539cc2502d16f98f",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/0e11c342d167c75f083358fa7825657ea4ab10eb",
+                "reference": "0e11c342d167c75f083358fa7825657ea4ab10eb",
                 "shasum": ""
             },
             "require": {
@@ -2956,7 +2958,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-02-16 02:14:17"
+            "time": "2015-02-25 13:42:36"
         },
         {
             "name": "doctrine/dbal",
@@ -2964,12 +2966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "6fb7312d208c9d6f45015953f367e5c33b2bdd5a"
+                "reference": "cc7e4fefb98b90cef783daf73afcc0d8b6a05653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/6fb7312d208c9d6f45015953f367e5c33b2bdd5a",
-                "reference": "6fb7312d208c9d6f45015953f367e5c33b2bdd5a",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/cc7e4fefb98b90cef783daf73afcc0d8b6a05653",
+                "reference": "cc7e4fefb98b90cef783daf73afcc0d8b6a05653",
                 "shasum": ""
             },
             "require": {
@@ -3028,7 +3030,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2015-02-10 13:02:17"
+            "time": "2015-02-26 10:47:54"
         },
         {
             "name": "doctrine/inflector",
@@ -3157,12 +3159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "2495d3361ac1e9fc15608a1b33ec2dd41c56b2dc"
+                "reference": "40426f77f030b6fb45951be920ff1036b2f423d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/2495d3361ac1e9fc15608a1b33ec2dd41c56b2dc",
-                "reference": "2495d3361ac1e9fc15608a1b33ec2dd41c56b2dc",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/40426f77f030b6fb45951be920ff1036b2f423d2",
+                "reference": "40426f77f030b6fb45951be920ff1036b2f423d2",
                 "shasum": ""
             },
             "require": {
@@ -3201,7 +3203,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-02-23 10:49:44"
+            "time": "2015-02-27 08:30:07"
         },
         {
             "name": "maximebf/debugbar",
@@ -3265,12 +3267,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "ff902a0beb121a13a4d3c604bd6778a25aeae07a"
+                "reference": "d1da796ba5565789a623052eb9f2cf59d57fec60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/ff902a0beb121a13a4d3c604bd6778a25aeae07a",
-                "reference": "ff902a0beb121a13a4d3c604bd6778a25aeae07a",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d1da796ba5565789a623052eb9f2cf59d57fec60",
+                "reference": "d1da796ba5565789a623052eb9f2cf59d57fec60",
                 "shasum": ""
             },
             "require": {
@@ -3281,7 +3283,8 @@
             },
             "suggest": {
                 "dflydev/markdown": "~1.0",
-                "erusev/parsedown": "~1.0"
+                "erusev/parsedown": "~1.0",
+                "league/commonmark": "*"
             },
             "type": "library",
             "extra": {
@@ -3306,7 +3309,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2015-02-12 12:17:11"
+            "time": "2015-02-27 09:28:18"
         },
         {
             "name": "symfony/class-loader",
@@ -3366,12 +3369,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "eeb76c48e9fa2c56eae8160cba3cf94d0c19686a"
+                "reference": "6e1aeb472cbc5b229db87983f4ef502996ea0d1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/eeb76c48e9fa2c56eae8160cba3cf94d0c19686a",
-                "reference": "eeb76c48e9fa2c56eae8160cba3cf94d0c19686a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6e1aeb472cbc5b229db87983f4ef502996ea0d1f",
+                "reference": "6e1aeb472cbc5b229db87983f4ef502996ea0d1f",
                 "shasum": ""
             },
             "require": {
@@ -3417,7 +3420,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2015-02-21 13:05:27"
+            "time": "2015-02-25 12:51:44"
         },
         {
             "name": "way/generators",
