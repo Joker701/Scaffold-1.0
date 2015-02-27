@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row">
-	<div class="col-md-6 col-md-offset-3 form-border">
+	<div class="col-md-6 col-md-offset-3">
         <h3 class="text-primary">Log In:</h3>
 		{{ Form::open(['route' => 'login_path']) }}
 		<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">

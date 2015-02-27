@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row">
-	<div class="col-md-6 col-md-offset-3 form-border">
+	<div class="col-md-6 col-md-offset-3">
         <h3 class="text-primary">Password Reset:</h3>
 		{{ Form::open() }}
 		<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
