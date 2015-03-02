@@ -997,12 +997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bba433ac380c47523fab495a1322368381df0996"
+                "reference": "1b34cd4d88b2c10e44cc0aa3001e923b737bc5de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bba433ac380c47523fab495a1322368381df0996",
-                "reference": "bba433ac380c47523fab495a1322368381df0996",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1b34cd4d88b2c10e44cc0aa3001e923b737bc5de",
+                "reference": "1b34cd4d88b2c10e44cc0aa3001e923b737bc5de",
                 "shasum": ""
             },
             "require": {
@@ -1061,7 +1061,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-02-25 16:48:53"
+            "time": "2015-03-01 15:07:20"
         },
         {
             "name": "nesbot/carbon",
